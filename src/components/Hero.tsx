@@ -81,7 +81,7 @@ const Hero = () => {
                 className="border-border/50 hover:border-tech-blue/50 transition-all duration-300 hover:scale-105"
                 asChild
               >
-                <a href="https://drive.google.com/uc?export=download&id=1F8V9EdyzlvIjqmZOYxi69C_X1LrVt3Rw" target="_blank" title="Download Resume">
+                <a href="/neil-anthony-resume.pdf" download="Neil-Anthony-Resume.pdf" title="Download Resume">
                   <Download className="h-5 w-5" />
                 </a>
               </Button>
