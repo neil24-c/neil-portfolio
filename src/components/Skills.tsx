@@ -8,25 +8,25 @@ const Skills = () => {
       category: "Programming",
       icon: Code2,
       color: "tech-blue",
-      skills: ["Python", "HTML", "CSS", "JavaScript", "SQL"]
+      skills: ["Python", "C", "HTML", "CSS"]
     },
     {
       category: "Tools & Libraries",
       icon: Wrench,
       color: "tech-purple",
-      skills: ["OpenCV", "YOLOv5", "NumPy", "Flask", "MySQL"]
+      skills: ["OpenCV", "YOLOv5", "NumPy", "MySQL", "Qiskit", "IBM Quantum", "Flask", "Pandas", "Scikit-learn", "TensorFlow"]
     },
     {
       category: "Hardware & IoT",
       icon: Cpu,
       color: "tech-orange",
-      skills: ["Raspberry Pi", "ESP32", "PIR Sensors", "Gas Sensors", "Arduino IDE"]
+      skills: ["Raspberry Pi", "ESP32", "PIR Sensors", "DHT11", "Gas Sensors"]
     },
     {
       category: "Soft Skills",
       icon: Users,
       color: "tech-green",
-      skills: ["Git", "Excel", "PowerPoint", "Presentation", "Public Speaking", "Event Management", "Teaching", "Mentoring"]
+      skills: ["Git", "PowerPoint", "Public Speaking", "Event Management"]
     }
   ];
 
@@ -91,18 +91,18 @@ const Skills = () => {
               <h3 className="text-xl font-semibold mb-4">Always Learning</h3>
               <p className="text-muted-foreground leading-relaxed">
                 I'm constantly expanding my skill set and staying updated with the latest technologies. 
-                Currently exploring advanced AI/ML techniques, cloud computing, and modern web frameworks 
-                to enhance my problem-solving toolkit.
+                Passionate about IoT, AI, Computer Vision, and Quantum Computing, with hands-on experience 
+                in building real-world solutions.
               </p>
               <div className="flex justify-center mt-6 space-x-4">
                 <Badge variant="outline" className="border-tech-blue/30 text-tech-blue">
                   Machine Learning
                 </Badge>
                 <Badge variant="outline" className="border-tech-purple/30 text-tech-purple">
-                  Cloud Computing
+                  Quantum Computing
                 </Badge>
                 <Badge variant="outline" className="border-tech-orange/30 text-tech-orange">
-                  React.js
+                  Computer Vision
                 </Badge>
               </div>
             </CardContent>
