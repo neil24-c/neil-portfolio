@@ -14,7 +14,7 @@ const Skills = () => {
       category: "Tools & Libraries",
       icon: Wrench,
       color: "tech-purple",
-      skills: ["OpenCV", "YOLOv5", "NumPy", "MySQL", "Qiskit", "IBM Quantum", "Flask", "Pandas", "Scikit-learn", "TensorFlow"]
+      skills: ["OpenCV", "YOLOv5", "MySQL", "Qiskit", "IBM Quantum"]
     },
     {
       category: "Hardware & IoT",
