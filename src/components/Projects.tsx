@@ -12,6 +12,21 @@ const Projects = () => {
     category: "IoT",
     repoUrl: "https://github.com/neil24-c/smartdoorbell-IoT"
   }, {
+    title: "Smart Traffic System using Quantum Computing",
+    description: "Real-time traffic simulation system that uses IoT devices (Raspberry Pi + camera) to detect and count vehicles. Integrated Qiskit-based quantum optimization to dynamically allocate green signal time, simulating smart traffic flow on a prototype.",
+    icon: Smartphone,
+    techStack: ["Python", "OpenCV", "Raspberry Pi", "Qiskit", "IBM Quantum", "IoT Sensors"],
+    features: ["IBM Cloud integration", "Qiskit quantum optimization", "Real-time vehicle detection", "Dynamic signal allocation"],
+    category: "IoT"
+  }, {
+    title: "Cyber Security in Healthcare Networks",
+    description: "Using XGBoost algorithm to build an ML model for real-time threat detection in networks. Analyzes source and destination IPs to detect various types of network attacks in file sets.",
+    icon: Database,
+    techStack: ["XGBoost", "Python", "Machine Learning", "Network Security", "IP Analysis"],
+    features: ["Real-time threat detection", "Network attack identification", "IP traffic analysis", "ML-based security monitoring"],
+    category: "AI/ML",
+    repoUrl: "https://github.com/neil24-c/cyber-security"
+  }, {
     title: "YOLOv5 Affine Detection System",
     description: "Advanced object detection system with support for rotation and distortion in edge devices. Optimized for real-time performance on resource-constrained hardware.",
     icon: Eye,
@@ -27,21 +42,6 @@ const Projects = () => {
     features: ["Student record management", "Course administration", "Grade tracking", "Report generation"],
     category: "Web Development",
     repoUrl: "https://github.com/neil24-c/database-student"
-  }, {
-    title: "Cyber Security in Healthcare Networks",
-    description: "Using XGBoost algorithm to build an ML model for real-time threat detection in networks. Analyzes source and destination IPs to detect various types of network attacks in file sets.",
-    icon: Database,
-    techStack: ["XGBoost", "Python", "Machine Learning", "Network Security", "IP Analysis"],
-    features: ["Real-time threat detection", "Network attack identification", "IP traffic analysis", "ML-based security monitoring"],
-    category: "AI/ML",
-    repoUrl: "https://github.com/neil24-c/cyber-security"
-  }, {
-    title: "IoT Smart Parking System with Quantum Computing",
-    description: "Revolutionary smart parking system leveraging IoT sensors and quantum computing algorithms for optimal space allocation and traffic flow management. Currently under development and analysis.",
-    icon: Smartphone,
-    techStack: ["IoT", "Quantum Computing", "Python", "Sensors", "Data Analysis"],
-    features: ["Quantum optimization algorithms", "Real-time parking availability", "IoT sensor integration", "Traffic flow analysis"],
-    category: "IoT"
   }];
   const getCategoryColor = (category: string) => {
     switch (category) {
@@ -143,23 +143,6 @@ const Projects = () => {
         })}
         </div>
 
-        {/* Call to Action */}
-        <div className="text-center mt-12">
-          <Card className="border-border/50 shadow-card max-w-2xl mx-auto">
-            <CardContent className="p-8">
-              <h3 className="text-xl font-semibold mb-4">Want to see more?</h3>
-              <p className="text-muted-foreground mb-6">
-                These are just a few highlights. Check out my GitHub for more projects and contributions.
-              </p>
-              <Button className="gradient-primary text-white hover:opacity-90 transition-all duration-300 hover:scale-105" asChild>
-                <a href="https://github.com/neil24-c" target="_blank" rel="noopener noreferrer">
-                  <Github className="w-4 h-4 mr-2" />
-                  View All Projects
-                </a>
-              </Button>
-            </CardContent>
-          </Card>
-        </div>
       </div>
     </section>;
 };
